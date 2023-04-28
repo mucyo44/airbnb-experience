@@ -1,0 +1,193 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:rgb(249, 208, 243) ;
+}
+.App{
+    margin:0 auto;
+    width:550px;
+    background-color: white;
+    margin-top:20px;
+    overflow:auto;
+    border-radius: 10px;
+    margin-bottom:10px;
+}
+
+.Nav{
+    
+    height: 40px;
+    display: flex;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    
+    
+}
+.Nav>img{
+    height: 30px;
+    padding: 5px 10px 15px 10px;
+}
+.Grid-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 380px;
+    margin-top: 10px;
+
+}
+.grid1{
+    margin-left:170px;
+    margin-right: 4px;
+}
+.grid2{
+    margin-top: -25px;
+    margin-right: 4px;
+}
+.grid3{
+    margin-top:40px;
+    margin-right: 4px;
+}
+.grid4{
+    margin-top: -15px;
+    margin-right: 4px;
+}
+.grid5{
+    margin-top: 15px;
+    margin-right: 4px;
+}
+.main{
+ 
+    font-size: 20px;
+    margin-left:40px;
+
+}
+.main>p{
+    max-width: 350px;
+    letter-spacing: 0.2px;
+    margin-top:-20px ;
+}
+.footer{
+    display:flex;
+    margin-left: 40px;
+  
+}  
+.lesson--div{
+ margin-top: 43px; 
+ position: relative; 
+
+}
+
+.wedding--div{
+    margin-left: 15px;
+    margin-top: 43px;
+    position: relative;
+   
+    
+
+}
+.biking--div{
+    margin-top: 43px;
+    position: relative;
+    
+}
+.biking--div>img,.biking--div>p{
+    margin-left: 15px;
+}
+
+p>span{
+   font-weight: bold;
+}
+.p-span{
+    margin-top: -5px;
+}
+.span-star{
+    color: orangered;
+    
+}
+.span-star3{
+    margin-left: 20px;
+    color: orangered;
+}
+
+.star{
+    display: flex;
+    align-items: center;
+    
+}
+h3{
+    background-color:white;
+    color:black;
+    border-radius:5px ;
+    padding:5px;
+    /* width:70px; */
+   position:absolute;
+   margin: 4px;
+   font-size: 16px;
+  
+
+}
+.lesson--div>h3{
+    padding-right: 10px;
+    letter-spacing: 0.4px;
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
+/*  
+ .container{
+    width:350px;
+    height: 400px;
+    background-color:grey;
+    color:white;
+    border:solid 2px blueviolet;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+
+.nav-bar{
+  display:flex;
+  justify-content: space-around;
+  background-color: white;
+  
+
+  }
+  .nav-bar>img{
+    width:40px;
+    height: 35px;
+    padding:10px;
+  }
+
+
+.nav-items{
+    list-style: none;
+    display:flex;
+    color:black;
+  
+    
+    
+}
+.main>h1{
+    font-size: 10px;
+    padding:20px 100px;   
+}
+.main>ul>li::marker{
+    color:aqua;
+    font-size:1.4em;
+}
+.nav-items>li{
+
+    padding:10px;
+} 
+.main{
+    background: grey url("./assets/react.svg") no-repeat  right 100%;
+   
+} */
+
